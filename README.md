@@ -11,8 +11,9 @@ Setiap modul bertanya dulu, lalu hanya mengeluarkan prompt.
 
 ## Cara pasang
 
-- **Claude (claude.ai / Cowork):** unduh repo sebagai ZIP melalui **Code → Download ZIP**, lalu unggah melalui Settings → Capabilities → Skills.
-- **Claude Code / agen lain yang membaca folder skill:** salin folder `content-creator-template/` ke folder skill agen, mis. `~/.claude/skills/`.
+- **Agentic Skill Installer (VS Code):** tambahkan `https://github.com/aqilwahid/content-creator-template` sebagai source repository, lalu refresh katalog dan cari **content-creator-template**.
+- **Claude Code / agen lain yang membaca Agent Skills:** salin folder `skills/content-creator-template/` ke direktori skills agen, mis. `~/.claude/skills/content-creator-template/`.
+- **Claude (claude.ai / Cowork):** kompres isi folder `skills/content-creator-template/` menjadi ZIP dengan `SKILL.md` di root ZIP, lalu unggah melalui Settings → Capabilities → Skills.
 
 ## Cara pakai
 
